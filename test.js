@@ -1,18 +1,9 @@
-function sharp(n) {
-    for (let i = 0; i < n; i++) {
-        console.log(sharpLine(i))
+function f(arg) {
+    console.log('Что я сделал за сегодня: ')
+    let length = arguments.length
+    for (let i = 0; i < length ; i++) {
+        console.log(i + '- ' + arguments[i])
     }
 }
 
-function sharpLine(n) {
-    let one = ' # # # # #'
-    let two = '# # # # #'
-    if (n % 2 === 0) {
-        return two
-    } else {
-        return one
-    }
-}
-
-sharp(8)
-
+f('Поехал в город', 'Написал заявление на расторжение договора страховки', 'Сходил в баню')
