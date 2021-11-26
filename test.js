@@ -77,28 +77,28 @@
 // draw(5)
 
 //Типы Данных
-var num = 3
-
-var string = 'hello1'
-
-var boolea = true
-
-var object = {a: 4}
-
-var nul = null
-
-var undefine = undefined
-
-console.log()
-
+// var num = 3
 //
-// var num1 = 12
-// var num2 = 2
+// var string = 'hello1'
 //
-// var str1 = 'Hello'
-// var str2 = 'World'
+// var boolea = true
 //
-// console.log('5' - '7')
+// var object = {a: 4}
+//
+// var nul = null
+//
+// var undefine = undefined
+//
+// console.log()
+
+// Операторы + - / *
+var num1 = 12
+var num2 = 2
+
+var str1 = 'Hello'
+var str2 = 'World'
+
+console.log('5' - '7')
 
 // Приоритеты
 // var vv = 5 + 5 * 5 > 40
