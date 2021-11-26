@@ -1,11 +1,16 @@
-// Сокращения операторов
-var i = 1
+// опрераторы сравнения
+console.log(2 > 1) // true
 
-i *= 4
+console.log(2 <= 2) //true
 
-i /= 2
+console.log(5 <= 2) //false
 
-i -= 0.5
+console.log(5 == 5 ) //true
 
-console.log(--i)
+console.log(5 == 4 ) //false
 
+console.log(5 != 4 ) //true
+
+console.log(5 === '5' ) //false
+
+console.log(5 !== '5' ) //true
