@@ -1,16 +1,19 @@
-// опрераторы сравнения
-console.log(2 > 1) // true
+function a(n) {
+    for (let i = 0; i <n ; i++) {
+        console.log(bb(i))
+    }
+    for (let i = n; i > 0 ; i--) {
+        console.log(bb(i))
+    }
+}
 
-console.log(2 <= 2) //true
+function bb(n) {
+    let str = ''
+    for (let i = 0; i < n ; i++) {
+        str += '*'
+    }
+    return str
+}
 
-console.log(5 <= 2) //false
+a(8)
 
-console.log(5 == 5 ) //true
-
-console.log(5 == 4 ) //false
-
-console.log(5 != 4 ) //true
-
-console.log(5 === '5' ) //false
-
-console.log(5 !== '5' ) //true
