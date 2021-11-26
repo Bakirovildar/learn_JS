@@ -92,15 +92,15 @@
 // console.log()
 
 // Операторы + - / *
-var num1 = 12
-var num2 = 2
-
-var str1 = 'Hello'
-var str2 = 'World'
-
-console.log('5' - '7')
+// var num1 = 12
+// var num2 = 2
+//
+// var str1 = 'Hello'
+// var str2 = 'World'
+//
+// console.log('5' - '7')
 
 // Приоритеты
-// var vv = 5 + 5 * 5 > 40
-//
-// console.log(vv)
+ var vv = 5 + 5 * 5 > 40
+//      3   13  14  11
+ console.log(vv)
