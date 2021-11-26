@@ -1,19 +1,18 @@
-function a(n) {
-    for (let i = 0; i <n ; i++) {
-        console.log(bb(i))
-    }
-    for (let i = n; i > 0 ; i--) {
-        console.log(bb(i))
+function sharp(n) {
+    for (let i = 0; i < n; i++) {
+        console.log(sharpLine(i))
     }
 }
 
-function bb(n) {
-    let str = ''
-    for (let i = 0; i < n ; i++) {
-        str += '*'
+function sharpLine(n) {
+    let one = ' # # # # #'
+    let two = '# # # # #'
+    if (n % 2 === 0) {
+        return two
+    } else {
+        return one
     }
-    return str
 }
 
-a(8)
+sharp(8)
 
