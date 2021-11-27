@@ -1,8 +1,15 @@
-var personAge = 17
-var message
+var carColor = 'yellow'
 
-message = personAge < 18
-    ? 'Человек несовершеннолетний'
-    : 'Человек совершеннолетний'
-
-console.log(message)
+switch (carColor) {
+    case "yellow":
+        console.log('желтый')
+        break
+    case 'red':
+        console.log('red')
+        break
+    case 'green':
+        console.log('green')
+        break
+    default:
+        console.log('Неопределен')
+}
