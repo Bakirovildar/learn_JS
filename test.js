@@ -1,8 +1,15 @@
-var cars = ['Audi','BMW','Mazda','Kia',] //Массив
 
-cars.push('Mercedes') // Добавляет новый элемент в КОНЕЦ массива
-cars.unshift('Skoda') // Добавляет новый элемент в НАЧАЛО массива
-cars.pop() // Удаляет последний элемент в массиве
-cars.shift() // Удаляет первый элемент в массиве
-
-var BMW =  cars.indexOf('BMW')// Находит индек по имени 'BMW'
+var person = {
+    name: 'Igor',
+    year: 1986,
+    family: ['Vika', 'Kostya', 'Katya'],
+    car: {
+        model: 'Mercedes',
+        year: 2021
+    },
+    calculateAge: function () {
+        this.age = 2021 - this.year // Новый ключ со значением
+    }
+}
+person.car.model = 'BMW'
+person.family[0] = 'Marina'
