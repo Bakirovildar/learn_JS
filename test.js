@@ -1,15 +1,8 @@
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 
-var person = {
-    name: 'Igor',
-    year: 1986,
-    family: ['Vika', 'Kostya', 'Katya'],
-    car: {
-        model: 'Mercedes',
-        year: 2021
-    },
-    calculateAge: function () {
-        this.age = 2021 - this.year // Новый ключ со значением
+for (i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 !== 0) {
+        continue
     }
+    console.log(numbers[i])
 }
-person.car.model = 'BMW'
-person.family[0] = 'Marina'
