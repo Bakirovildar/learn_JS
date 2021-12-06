@@ -83,7 +83,8 @@ function renderBox() {
     var maxLeft = getRandom(0, gameParams.width - sizeBox)
 
     box.style.height = box.style.width = sizeBox + 'px'
-    box.style.background = '#000'
+    box.style.background = 'url("image/beetle-2154.png") no-repeat center'
+    box.style.backgroundSize = sizeBox +'px'
     box.style.position = 'absolute'
     box.style.cursor = 'pointer'
     box.style.left = maxLeft + 'px'
